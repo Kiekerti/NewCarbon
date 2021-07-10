@@ -1,0 +1,330 @@
+---
+title: Charts
+description: Charts are typically divided into categories based on their goals, aesthetics or visual features. Since charts can be versatile and used in different ways, details and features of these categories are explained and contextualized here. Use these best practices as you create data visualizations.
+---
+
+import OverviewCard from "../../components/OverviewCard";
+import { noGutterSm } from '../../styles/Grid.module.scss'
+
+
+<PageDescription>
+
+Charts are typically divided into categories based on their goals, aesthetics or visual features. Since charts can be versatile and used in different ways, details and features of these categories are explained and contextualized here. Use these best practices as you create data visualizations.
+</PageDescription>
+
+<AnchorLinks>
+  <AnchorLink>Comparisons</AnchorLink>
+  <AnchorLink>Trends</AnchorLink>
+  <AnchorLink>Part to whole</AnchorLink>
+  <AnchorLink>Correlations</AnchorLink>
+  <AnchorLink>Relationships and connections</AnchorLink>
+  <AnchorLink>Maps</AnchorLink>
+</AnchorLinks>
+
+## Comparisons
+
+Charts designed for comparison aim to visualize differences between elements. Most of the time comparisons rely on the ability of the human eye to identify longer or bigger shapes with very little or no effort. Side-by-side positioning and alignment of the visual elements make comparisons even easier. These charts are used for time-based data, for example, units sold per day or worked hours per month. They are also used for categorized data, for example, revenue by market or sold units by team.
+
+<Row className="overview-card-group">
+<Column  colMax={3} colXl={3} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Bar chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#bar-(vertical)"
+    >
+
+![bar chart](/images/charts/bar.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Grouped bar"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#grouped-bar-(discrete)"
+    >
+
+![grouped charts](/images/charts/bargrouped.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Bubble chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#bubble"
+    >
+
+![bubble chart](/images/charts/bubble.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Radar chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#radar"           
+    >
+
+![radar chart](/images/charts/radar.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Horizontal bar chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#bar-(horizontal)"
+    >
+
+![horizontal](/images/charts/barhoriz.svg)
+
+</OverviewCard>
+</Column>
+</Row>
+
+
+## Trends
+
+Trend charts represent data along with the time dimension. Use them mainly to track changes over periods of time of varying duration and scale. They rely on direction to show the evolution of consecutive values and might be influenced by different cultural contexts. These charts are used for time-based data, for example, revenue by quarter or rainfall per day.
+
+<Row className="overview-card-group">
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Line chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#line"
+    >
+
+![line chart](/images/charts/line.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Area chart"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#area"
+    >
+
+![area chart](/images/charts/area.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Histogram"
+    disabled
+    >
+
+![histogram](/images/charts/histogram.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Stream chart"
+    disabled
+    >
+
+![stream chart](/images/charts/stream.svg)
+
+</OverviewCard>
+</Column>
+
+</Row>
+
+## Part to whole
+
+The goal of these charts is to show the inner subdivision of a value among different categories or groups. Mostly used to represent percentages, they can also be used for absolute values. Their function does not depend on the graphic shapes used, such as pie, donut, square and so on. These charts are used for categorized data, for example, subdivision of revenue by product or percentage of users by browser.
+
+<Row className="overview-card-group">
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Donut / pie"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#donut"
+    >
+
+![Donut pie](/images/charts/donut.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Stacked bar"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#stacked-bar-(discrete)"
+    >
+
+![stacked bar](/images/charts/barstack.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Stacked area"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#area"
+    >
+
+![stacked area](/images/charts/areastack.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm>
+ <OverviewCard
+    title="Tree map"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#tree-maps"
+    >
+
+![tree map](/images/charts/treemap.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Gauge"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#gauge"
+    >
+
+![gauge](/images/charts/gauge.svg)
+
+</OverviewCard>
+</Column>
+
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Meter"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#meter"
+    >
+
+![meter](/images/charts/meter.svg)
+
+</OverviewCard>
+</Column>
+
+</Row>
+
+## Correlations
+
+These charts are better suited to highlight the possible correlation between two or more indicators and how they might affect each other. Correlation charts have the final goal of making it easier for the human eye to spot combined behaviors. These charts are used for multidimensional data, for example, correlation between phone-call duration and customer satisfaction.
+
+<Row className="overview-card-group">
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm>
+ <OverviewCard
+    title="Scatterplot"
+    href="https://www.carbondesignsystem.com/data-visualization/basic-charts#scatter"
+    >
+
+![scatter plot](images/charts/scatter.svg)
+
+</OverviewCard>
+</Column>
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Heatmap"
+    tag="Design only"           
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#heat-maps"
+    >
+
+![Heat map](images/charts/heatmap.svg)
+
+</OverviewCard>
+</Column>
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Parallel coordinates"
+    tag="Design only"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#parallel-coordinates"
+    >
+
+![parallel  coordinates](images/charts/parallel.svg)
+
+</OverviewCard>
+</Column>
+</Row>
+
+## Relationships and connections
+
+Charts included in this category represent hierarchies. The intent is to explain the role of an element within an ecosystem or to observe the inner nature of a subject in different phases and states of a process. These charts are used for categorized data, for example, country of origin of asylum seeker and gender. They are also used for multidimensional data, for example, number of active users by testing phase.
+
+<Row className="overview-card-group">
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Alluvial diagram"
+    tag="Design only"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#alluvial-diagrams"
+    >
+
+![alluvial](images/charts/alluvial.svg)
+
+</OverviewCard>
+</Column>
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Tree diagram"
+    tag="Design only"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#network-diagrams"
+    >
+
+![tree diagram](images/charts/treediagram.svg)
+
+</OverviewCard>
+</Column>
+</Row>
+
+## Maps
+
+Maps are the easiest and most immediate way to communicate geolocated information. Maps allow the user to recognize areas and places, to understand the geographical context of the topic and to identify patterns, all relying on the position of elements. These charts are used for geographical data, for example, voters by county or average wage by neighborhood.
+
+<Row className="overview-card-group">
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Choropleth map"
+    tag="Design only"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#geographic-overlays"
+    >
+
+![choropleth](images/charts/geo-choropleth.svg)
+
+</OverviewCard>
+</Column>
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Proportional symbol"
+    tag="Design only"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#proportional-symbol-map"
+    >
+
+![proportional](images/charts/geo-proportion.svg)
+
+</OverviewCard>
+</Column>
+<Column  colMax={3} colXl={4} colLg={4} colMd={4} colSm={2} noGutterSm >
+ <OverviewCard
+    title="Connecting lines"
+    tag="Design only"
+    href="https://www.carbondesignsystem.com/data-visualization/advanced-charts#connection-map"
+    >
+
+![connecting lines](images/charts/geo-connection.svg)
+
+</OverviewCard>
+</Column>
+</Row>
+
+
+
+
+
+
+
+
+
+
+
+
