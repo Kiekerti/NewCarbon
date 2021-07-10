@@ -5,11 +5,11 @@ module.exports = {
     description: "人人可公益，人人可社工。",
     keywords: "公益,社工,支教,慈善,妇联,儿童",
   },
-  // flags: {
-  //   FAST_DEV: true,
-  //   FAST_REFRESH: true,
-  //   // PARALLEL_SOURCING: true,
-  // },
+  flags: {
+    FAST_DEV: true,
+    FAST_REFRESH: true,
+    PARALLEL_SOURCING: true,
+  },
   plugins: [
     {
       resolve: "gatsby-plugin-manifest",
