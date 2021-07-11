@@ -153,7 +153,13 @@ const Content = ({ buildTime }) => {
   return (
     <>
       <p>
-        有疑问？发送 <a href="mailto:sample@gmail.com">邮件</a> 咨询
+        有疑问？发送
+        <a
+          href="mailto:sample@gmail.com"
+          onClick={() => {
+            console.log("%c\ud83e\udd2b 加入我们，一起让世界更美好。 \ud83c\udf6d", "background: #1B2024; color: #D4EBFF; padding: 10px 16px")
+          }}>邮件
+        </a> 咨询
       </p>
       <p>
         上次更新于{buildTime}
