@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://newcarbon.pages.dev",
+    siteUrl: "https://neomon.cn",
     title: "邻萌社区服务中心",
     description: "人人可公益，人人可社工。",
     keywords: "公益,社工,支教,慈善,妇联,儿童",
