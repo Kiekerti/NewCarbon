@@ -157,7 +157,7 @@ const Content = ({ buildTime }) => {
         <a
           href="mailto:sample@gmail.com"
           onClick={() => {
-            console.log("%c\ud83e\udd2b 加入我们，一起让世界更美好。 \ud83c\udf6d", "background: #1B2024; color: #D4EBFF; padding: 10px 16px")
+            console.log("%c\ud83e\udd2b 加入我们，一起让世界更美好。 \ud83c\udf6d", "background: #0f62fe; color: #D4EBFF; padding: 10px 16px")
           }}>邮件
         </a> 咨询
       </p>
