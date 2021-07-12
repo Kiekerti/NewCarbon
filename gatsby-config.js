@@ -29,6 +29,10 @@ module.exports = {
         iconPath: './src/images/favicon.svg',
         mdxExtensions: ['.mdx'],
         titleType: 'append',
+        theme: {
+          homepage: 'dark',
+          interior: 'g10',
+        },
       },
     },
     {

@@ -2,7 +2,7 @@ import React from 'react';
 import { FourOhFour } from 'gatsby-theme-carbon';
 
 const links = [
-  { href: '/philosophy/pov', text: 'Philosophy' },
+  { href: '/philosophy/pov', text: '等待修改' },
   { href: '/gallery', text: 'Gallery' },
   { href: '/updates/whats-new', text: 'What’s new' },
 ];

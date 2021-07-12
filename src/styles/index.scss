@@ -3,7 +3,6 @@
 //---------------------------------------
 @import 'images';
 @import 'homepage';
-@import 'typography';
 @import 'color';
 @import 'philosophy';
 @import 'icons';
@@ -18,8 +17,7 @@
 //---------------------------------------
 // IDL components
 //---------------------------------------
-@import '../components/TypeFaceSubFamilies/typeface-sub-families';
-@import '../components/TypeTester/type-tester';
+
 @import '../components/NonLatinScripts/non-latin-script';
 @import '../components/PlayPauseButton/play-pause-button';
 @import '../components/VideoInternal/video-internal';
@@ -28,8 +26,7 @@
 @import '../components/Carousel/carousel';
 @import '../components/SwatchPaletteWidget/swatch-palette-widget';
 @import '../components/MotionChecklist/motion-checklist';
-@import '../components/TypesetExample/typeset-example';
-@import '../components/TypesetStyle/typeset-style';
+
 
 //---------------------------------------
 // IDL/Carbon shared components
