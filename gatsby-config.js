@@ -26,6 +26,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-carbon',
       options: {
+        isSearchEnabled: false,
         iconPath: './src/images/favicon.svg',
         mdxExtensions: ['.mdx'],
         titleType: 'append',

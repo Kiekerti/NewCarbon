@@ -63,9 +63,9 @@ class HomepageVideo extends Component {
                 className={`${prefix}--homepage-video-container-cta ${prefix}--row`}>
                 <Link
                   className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
-                  to="/philosophy/pov/">
+                  to="/whats-new">
                   <p className={`${prefix}--type-expressive-heading-03`}>
-                    设计哲学
+                    最新动态
                   </p>
                   <div className={`${prefix}--homepage-video-arrow-container`}>
                     <ArrowRight20
@@ -77,7 +77,7 @@ class HomepageVideo extends Component {
                   className={`${prefix}--homepage-video-cta ${prefix}--col-md-2 ${prefix}--col-lg-4`}
                   to="/gallery/">
                   <p className={`${prefix}--type-expressive-heading-03`}>
-                    Gallery
+                    相册
                   </p>
                   <div className={`${prefix}--homepage-video-arrow-container`}>
                     <ArrowRight20

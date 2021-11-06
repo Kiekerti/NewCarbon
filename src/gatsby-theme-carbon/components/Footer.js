@@ -159,7 +159,7 @@ const Content = ({ buildTime }) => {
           onClick={() => {
             console.log("%c\ud83e\udd2b 加入我们，一起让世界更美好。 \ud83c\udf6d", "background: #0f62fe; color: #D4EBFF; padding: 10px 16px")
           }}>邮件
-        </a> 咨询
+        </a>咨询
       </p>
       <p>
         上次更新于{buildTime}
@@ -179,7 +179,7 @@ const links = {
       linkText: '回到首页',
     },
     {
-      href: '/',
+      href: '/philosophy/pov',
       linkText: '关于我们',
     },
   ],

@@ -1,10 +1,16 @@
-- title: Philosophy
+- title: 关于机构
   pages:
-    - title: Point of view
+    - title: 视角
       path: /philosophy/pov
-    - title: Principles
+    - title: 理念
       path: /philosophy/principles
-- title: Gallery
+- title: 最新动态
+  pages:
+    - path: /whats-new
+- title: 你问我答
+  pages:
+    - path: /help/faq
+- title: 相册
   pages:
     - path: /gallery
   hasDivider: true
@@ -68,16 +74,3 @@
       path: /animation/classic-principles/
     - title: Tips and techniques
       path: /animation/tips-and-techniques/
-  hasDivider: true
-- title: Resources
-  pages:
-    - path: /resources
-- title: What’s new
-  pages:
-    - path: /whats-new
-- title: Help
-  pages:
-    - title: Support
-      path: /help/support
-    - title: FAQ
-      path: /help/faq

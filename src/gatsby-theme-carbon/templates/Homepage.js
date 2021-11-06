@@ -8,16 +8,16 @@ import { gray100 } from '@carbon/colors';
 
 const FirstLeftText = () => (
   <p>
-    Think → <em>Guide</em>
+    决 策 → <em>行 动</em>
   </p>
 );
 
 const FirstRightText = () => (
   <p>
-    Build Bonds
+    建立纽带
     <br />
-    This is the guiding ethos behind IBM’s design philosophy and principles.
-    This helps us distinguish every element and every experience Designed&nbsp;by&nbsp;IBM.
+    这是邻萌社区服务中心工作任务之一，指导着我们的行动。
+    帮助我们解决不同的社会问题和链接不同的资源，建立更好的对象体验及多向互动。
     <div style={{ paddingTop: "1.25rem" }}>↓</div>
   </p>
 );
@@ -25,8 +25,8 @@ const FirstRightText = () => (
 const customProps = {
   Banner: (
     <HomepageVideo
-      src="videos/hero-video-min.mp4"
-      poster="images/hero-video-poster.jpg"
+      src="videos/hero-video-ceshi.mp4"
+      poster="images/meilicunxiao.png"
     />
   ),
   FirstCallout: (
