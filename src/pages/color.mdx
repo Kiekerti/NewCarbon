@@ -5,10 +5,10 @@ description:
   gradients, using specifications to represent mankind and machine in action.
 ---
 
-import Carousel from '../components/Carousel';
-import SwatchPaletteWidget from '../components/SwatchPaletteWidget';
-import ColorGrid from '../components/ColorGrid';
-import { noGutterSm } from '../styles/Grid.module.scss';
+import Carousel from "../components/Carousel";
+import SwatchPaletteWidget from "../components/SwatchPaletteWidget";
+import ColorGrid from "../components/ColorGrid";
+import { noGutterSm } from "../styles/Grid.module.scss";
 
 <PageDescription>
 
@@ -71,7 +71,7 @@ IBM.
   </Column>
   <Column colMd={4} colLg={6}  className="color-logo-carousel">
 
-  <Carousel id="c1" count="1 2 3 4 5 6 7 8 9" nav={false} fade={true} autoPlay>
+  <Carousel id="c1" count="1 2 3 4 5 6 7 8" nav={false} fade={true} autoPlay>
 
 ![Spaceman](/images/Spaceman.svg)
 
@@ -80,8 +80,6 @@ IBM.
 ![IBMCloud](/images/IBMCloud.svg)
 
 ![Watson](/images/Watson.svg)
-
-![Rebus](/images/Rebus.svg)
 
 ![Think](/images/Think.svg)
 
@@ -137,8 +135,8 @@ with Pantone® and CMYK values for print.
 
 <SwatchPaletteWidget
   palettes={[
-    ['red', 'magenta', 'purple', 'blue', 'cyan', 'teal', 'green'],
-    ['cool gray-bw', 'gray-bw', 'warm gray-bw'],
+    ["red", "magenta", "purple", "blue", "cyan", "teal", "green"],
+    ["cool gray-bw", "gray-bw", "warm gray-bw"],
   ]}
 />
 
@@ -195,7 +193,7 @@ that are more than two steps away from each other.
 
 <GifPlayer color="dark">
 
-![Common gradients shown against background alternatives](./images/gradients-main.gif) 
+![Common gradients shown against background alternatives](./images/gradients-main.gif)
 
 ![Common gradients shown against background alternatives](./images/gradients-main.jpg)
 
@@ -244,7 +242,7 @@ been designated as the primary action color across all products and experiences,
 ensuring our color aesthetic is a part of every interaction. Additional colors
 are used sparingly and purposefully.
 
-<SwatchPaletteWidget palettes={[['blue-bw', 'gray-bw', 'alert']]} />
+<SwatchPaletteWidget palettes={[["blue-bw", "gray-bw", "alert"]]} />
 
 <Row className="resource-card-group">
 <Column colMd={4} colLg={4} noGutterSm>
@@ -266,12 +264,12 @@ Color plays a key role in legibility regardless of the medium and application—
 of motion graphics in videos, social content, data visualization charts, user
 interfaces and more. When colors are insufficiently distinct, whether in
 brightness or difference in hue, low-vision users might have difficulty discerning
-letters and graphical elements. Don’t let poor color choices stand between your 
+letters and graphical elements. Don’t let poor color choices stand between your
 design’s message and a good user experience.
 
 ### Contrast ratios
 
-Contrast is the difference in brightness between any two elements. The [Web 
+Contrast is the difference in brightness between any two elements. The [Web
 Content Acessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG20/) set specific ratios that achieve the
 minimum required contrast for legibility. Generally speaking, small text is any
 size below 24px and requires a 4.5:1 contrast ratio. Large text is anything above
@@ -297,20 +295,20 @@ required to achieve commonly used contrast ratios between any two colors.
 </Column>
 </Row>
 
-| Color 1  | Color 2 (4.5:1 contrast)   | Color 2 (3:1 contrast)     |
-| -------- | -------------------------- | -------------------------- |
-| Black    | 50 through White (6 steps) | 60 through White (5 steps) |
-| 100      | 50 through White (5 steps) | 60 through White (4 steps) |
-| 90       | 50 through White (4 steps) | 60 through White (3 steps) |
-| 80       | 40 through White (4 steps) | 50 through White (3 steps) |
-| 70       | 30 through White (4 steps) | 40 through White (3 steps) |
-| 60       | 20 through White (4 steps) | 20 through White (4 steps) |
-| 50       | 90 through Black (4 steps) | 80 through Black (3 steps) |
-| 40       | 80 through Black (4 steps) | 70 through Black (3 steps) |
-| 30       | 70 through Black (4 steps) | 70 through Black (4 steps) |
-| 20       | 70 through Black (5 steps) | 60 through Black (4 steps) |
-| 10       | 60 through Black (5 steps) | 50 through Black (4 steps) |
-| White    | 60 through Black (6 steps) | 50 through Black (5 steps) |
+| Color 1 | Color 2 (4.5:1 contrast)   | Color 2 (3:1 contrast)     |
+| ------- | -------------------------- | -------------------------- |
+| Black   | 50 through White (6 steps) | 60 through White (5 steps) |
+| 100     | 50 through White (5 steps) | 60 through White (4 steps) |
+| 90      | 50 through White (4 steps) | 60 through White (3 steps) |
+| 80      | 40 through White (4 steps) | 50 through White (3 steps) |
+| 70      | 30 through White (4 steps) | 40 through White (3 steps) |
+| 60      | 20 through White (4 steps) | 20 through White (4 steps) |
+| 50      | 90 through Black (4 steps) | 80 through Black (3 steps) |
+| 40      | 80 through Black (4 steps) | 70 through Black (3 steps) |
+| 30      | 70 through Black (4 steps) | 70 through Black (4 steps) |
+| 20      | 70 through Black (5 steps) | 60 through Black (4 steps) |
+| 10      | 60 through Black (5 steps) | 50 through Black (4 steps) |
+| White   | 60 through Black (6 steps) | 50 through Black (5 steps) |
 
 ### Examples
 
@@ -479,4 +477,3 @@ well-balanced and cohesive experience.
   </ResourceCard>
   </Column>
 </Row>
-

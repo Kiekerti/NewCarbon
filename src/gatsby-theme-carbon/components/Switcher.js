@@ -6,53 +6,19 @@ import { SwitcherDivider } from 'gatsby-theme-carbon/src/components/Switcher'; /
 const CustomSwitcher = (props) => {
   return (
     <Switcher {...props}>
-      <SwitcherDivider>基石</SwitcherDivider>
-      <SwitcherLink href="https://ibm.com/brand" isInternal>
-        第一個鏈接
+      <SwitcherDivider>社交媒体</SwitcherDivider>
+      <SwitcherLink href="https://www.yuque.com/linmengshequ" isInternal>
+        语雀
       </SwitcherLink>
-      <SwitcherLink href="https://ibm.com/design/language">
-        第二个连接
+      <SwitcherLink href="https://weibo.com/menggongyi?nick=%E9%82%BB%E8%90%8C%E7%A4%BE%E5%8C%BA%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83&is_all=1">
+        微博
       </SwitcherLink>
-      <SwitcherDivider>Implementation</SwitcherDivider>
-      <SwitcherLink href="https://www.carbondesignsystem.com/">
-        有点忧伤啊
+      <SwitcherDivider>友好机构</SwitcherDivider>
+      <SwitcherLink href="http://www.lzsxysg.com/">
+        泸州市心源社会工作服务中心
       </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/standards/web/carbon-for-ibm-dotcom/">
-        Carbon for IBM.com
-      </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/design/event/">
-        IBM Event Design
-      </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/design/workplace/">
-        IBM Workplace Design
-      </SwitcherLink>
-      <SwitcherDivider>Practices</SwitcherDivider>
-      <SwitcherLink href="https://www.ibm.com/design/thinking/">
-        Enterprise Design Thinking
-      </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/able/">
-        IBM Accessibility
-      </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/design/ai">
-        IBM Design for AI
-      </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/design/research/">
-        IBM Design Research
-      </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/services/ibmix/">
-        IBM iX
-      </SwitcherLink>
-      <SwitcherLink
-        isInternal
-        href="https://w3.ibm.com/design/universal-experiences/">
-        IBM Universal Experiences
-      </SwitcherLink>
-      <SwitcherDivider>Community</SwitcherDivider>
-      <SwitcherLink href="https://w3.ibm.com/design/" isInternal>
-        IBM Design
-      </SwitcherLink>
-      <SwitcherLink href="https://www.ibm.com/design/racial-equity-in-design">
-        Racial Equity in Design
+      <SwitcherLink href="http://www.cdayx.com/">
+        成都市爱有戏社区发展中心
       </SwitcherLink>
     </Switcher>
   )
