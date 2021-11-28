@@ -12,18 +12,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        name: "邻萌社区服务中心",
-        icon: "src/images/custom.png",
-        short_name: "邻萌公益",
-        start_url: "/",
-        background_color: "#ffffff",
-        theme_color: "#0062ff",
-        display: "browser",
-      },
-    },
-    {
       resolve: 'gatsby-theme-carbon',
       options: {
         isSearchEnabled: false,
@@ -34,6 +22,18 @@ module.exports = {
           homepage: 'dark',
           interior: 'g10',
         },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "邻萌社区服务中心",
+        icon: "src/images/favicon.svg",
+        short_name: "邻萌公益",
+        start_url: "/",
+        background_color: "#ffffff",
+        theme_color: "#0062ff",
+        display: "browser",
       },
     },
     {
