@@ -13,4 +13,7 @@
 - title: 相册
   pages:
     - path: /gallery
+- title: 新冠疫情防控指南
+  pages:
+    - path: /covid/2019-ncov
   # hasDivider: true
