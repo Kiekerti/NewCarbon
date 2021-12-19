@@ -47,9 +47,8 @@ const NoResult = ({
         <Row className="resource-card-group">
           <Column colMd={4} colLg={4} noGutterSm>
             <ResourceCard
-              subTitle={`Submit ${
-                pageName === 'icon' ? 'an icon' : 'a pictogram'
-              } design`}
+              subTitle={`Submit ${pageName === 'icon' ? 'an icon' : 'a pictogram'
+                } design`}
               href={repoUrl}>
               <Github />
             </ResourceCard>
@@ -59,7 +58,7 @@ const NoResult = ({
               actionIcon="download"
               href={pageUrl}
               subTitle={`Download the ${pageName} master`}>
-              <img src='/images/illustrator.png' alt="Adobe Illustrator"/>
+              <img src='/images/illustrator.png' alt="Adobe Illustrator" />
             </ResourceCard>
           </Column>
         </Row>
