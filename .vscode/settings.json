@@ -5,14 +5,10 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
+        "**/Thumbs.db": true,
         "**/.cache": true,
-        "public": true,
-        "**/node_modules": false,
-        "**/.vscode": true,
-        ".vscode": true
+        "public": true
     },
-    "explorerExclude.backup": {
-        
-    },
+    "explorerExclude.backup": null,
     "git.ignoreLimitWarning": true
 }
