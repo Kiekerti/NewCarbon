@@ -1,14 +1,15 @@
 {
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        "**/.cache": true,
-        "public": true
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "**/.cache": true,
+      "public": true,
+      "node_modules": true
     },
-    "explorerExclude.backup": null,
+    "explorerExclude.backup": {},
     "git.ignoreLimitWarning": true
 }
